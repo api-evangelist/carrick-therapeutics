@@ -1,8 +1,26 @@
 aid: carrick-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carrick-therapeutics.png
 name: Carrick Therapeutics
-description: 'Carrick Therapeutics is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Carrick Therapeutics is a clinical-stage biopharmaceutical company headquartered
+  in Boston, Massachusetts, developing novel oncology therapies aimed at improving outcomes
+  for patients with aggressive and treatment-resistant cancers. Its pipeline centers on
+  transcriptional CDK inhibition, led by samuraciclib (a CDK7 inhibitor in Phase 2) and
+  CT7439 (a CDK12/13 inhibitor in Phase 1), pursued as combination therapies across advanced
+  hormone-receptor-positive/HER2-negative breast cancer, prostate cancer, ovarian cancer,
+  and additional indications. The company is backed by GV (Google Ventures) and was added
+  to the API Evangelist network as a life-sciences company profile; it publishes no developer
+  API, SDK, or documentation surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/carrick-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Pharmaceuticals
+- Oncology
+- Clinical Stage
+- Drug Development
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/carrick-therapeutics-domain-security.yml
 - type: Website
-  url: http://carricktherapeutics.com
+  url: https://www.carricktherapeutics.com
+- type: Blog
+  url: https://www.carricktherapeutics.com/news-media/press-releases
+- type: PrivacyPolicy
+  url: https://www.carricktherapeutics.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
